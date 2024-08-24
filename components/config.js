@@ -6,7 +6,7 @@ import {getFirestore} from 'firebase/firestore'
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDfrrdzkzDv1e3i4wI2pffb9HhHxQrsoy4",
+    apiKey: //,
     authDomain: "oxy-smart.firebaseapp.com",
     projectId: "oxy-smart",
     storageBucket: "oxy-smart.appspot.com",
