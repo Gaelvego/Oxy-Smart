@@ -1,0 +1,33 @@
+### GET FRIENDs
+GET http://localhost:8383/friends
+
+### GET FRIEND
+GET http://localhost:8383/friends/james
+
+
+### ADD A FRIEND
+POST http://localhost:8383/addpatient
+Content-Type: application/json
+
+{
+    "sensor": "oxygen",
+    "value": 40
+}
+
+### UPDATE STATUS OF A FRIEND
+PATCH http://localhost:8383/changestatus
+Content-Type: application/json
+
+{
+    "sensor": "oxygen",
+    "newValue": 69
+}
+
+
+###DELETE A FRIEND
+DELETE http://localhost:8383/friends
+Content-Type: application/json
+
+{
+    "name": "banana"
+}
